@@ -1,0 +1,36 @@
+#map {
+  height: 400px;
+  width: 100%; }
+
+.logo {
+  margin: 0;
+  padding: 0;
+  width: 15%; }
+
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+  width: 200px !important; }
+
+.btn-primary {
+  opacity: 0.85;
+  border-color: maroon !important;
+  background-color: maroon !important;
+  transition: 0.3s; }
+
+.btn-primary:hover {
+  border-color: #c5b358 !important;
+  background-color: #c5b358 !important; }
+
+.fab:hover {
+  color: #c5b358 !important;
+  transition: 0.3s; }
+
+.contact {
+  color: maroon;
+  text-decoration: none; }
+
+.contact:hover {
+  color: #c5b358;
+  transition: 0.3s;
+  text-decoration: none; }

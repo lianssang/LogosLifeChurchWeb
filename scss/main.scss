@@ -1,0 +1,47 @@
+$primary-color: maroon;
+$secondary-color: blue;
+$third-color: #c5b358;
+
+#map {
+  height: 400px;
+  width: 100%;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  width: 15%;
+}
+
+.navbar-brand {
+  margin: 0;
+  padding: 0;
+  width: 200px !important;
+}
+.btn-primary {
+  opacity: 0.85;
+  border-color: $primary-color !important;
+  background-color: $primary-color !important;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  border-color: $third-color !important;
+  background-color: $third-color !important;
+}
+
+.fab:hover {
+  color: $third-color !important;
+  transition: 0.3s;
+}
+
+.contact {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+.contact:hover {
+  color: $third-color;
+  transition: 0.3s;
+  text-decoration: none;
+}
