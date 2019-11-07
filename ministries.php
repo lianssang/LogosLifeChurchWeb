@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Our Ministries</title>
+    <link
+      rel="icon"
+      href="../img/logoslife.png"
+      type="image/x-icon"
+      sizes="16x16"
+    />
+    <link rel="stylesheet" href="./dist/css/main.css" />
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/dist/php/"; include($IPATH."cdn.html") ?>
+</head>
+<body>
+    <?php include($IPATH."navbar.html") ?>
+
+    <?php include($IPATH."contactbar.html") ?>
+    <?php include($IPATH."footerbar.html") ?>
+</body>
+</html>

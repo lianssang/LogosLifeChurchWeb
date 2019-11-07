@@ -2,15 +2,20 @@
   height: 400px;
   width: 100%; }
 
-.logo {
-  margin: 0;
-  padding: 0;
-  width: 15%; }
-
-.navbar-brand {
+nav .navbar-brand {
   margin: 0;
   padding: 0;
   width: 200px !important; }
+
+nav .logo {
+  width: 15%; }
+
+nav .nav-link {
+  color: maroon !important; }
+
+nav .nav-link:hover {
+  color: #c5b358 !important;
+  transition: 0.3s; }
 
 .btn-primary {
   opacity: 0.85;
