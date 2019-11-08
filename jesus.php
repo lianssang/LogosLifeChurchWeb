@@ -17,6 +17,10 @@
 <body>
     <?php include($IPATH."navbar.html") ?>
 
+    <!--Site Under Construction-->
+    <?php include($IPATH."site-under-construction.html") ?>
+    
+    <!--Contact Container & Footer Bar-->
     <?php include($IPATH."contactbar.html") ?>
     <?php include($IPATH."footerbar.html") ?>
 </body>

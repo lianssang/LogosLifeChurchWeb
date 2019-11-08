@@ -15,30 +15,90 @@
     <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/dist/php/"; include($IPATH."cdn.html") ?>
 </head>
 <body>
+    <!--Nav Bar-->
     <?php include($IPATH."navbar.html") ?>
+    <br>
 
+    <!--Card Pastor-->
+    <div class="container-fluid padding text-center">
+        <div class="row padding justify-content-center">
+            <div class="col-xs-12 m-2">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./img/avatar.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Rev. Dal Lam Mang</h5>
+                        <p class="card-text">Senior Pastor of Logos Life</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 m-2">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./img/avatar.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Rev. Zam Khan Sang</h5>
+                        <p class="card-text">Assistant Pastor of Logos Life</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card Board-->
     <div class="container-fluid padding">
-        <div class="row padding">
-    <div class="card col-xs-12 col-sm-6 col-md-3" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="row padding justify-content-center text-center">
+        <div class="col-xs-12 m-2">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./img/avatar.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Upa Thang Suan Dam</h5>
+                        <p class="card-text">Board Member</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 m-2">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./img/avatar.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Upa Kai Khan Pau</h5>
+                        <p class="card-text">Board Member</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 m-2">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./img/avatar.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Upa Daniel Khai</h5>
+                        <p class="card-text">Board Member</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 m-2">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="./img/avatar.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Upa Nang Hau Khup</h5>
+                        <p class="card-text">Board Member</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <ul class="list-group list-group-flush">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-        </ul>
-        <div class="card-body">
-                <a href="#" class="card-link">Card link</a>
-                <a href="#" class="card-link">Another link</a>
-        </div>
     </div>
-    </div>
-    </div>
-
-    <?php include($IPATH."contactbar.html") ?>
+    
+    <!--Contact Container & Footer Bar-->
     <?php include($IPATH."footerbar.html") ?>
 </body>
 </html>
+
+<!--
+Extra small devices (<768px): width: auto (or no width)
+Small Devices (≥768px): width: 750px
+Medium Devices (≥992px): width: 970px
+Larger Devices (≥1200px): width: 1170px
+-->

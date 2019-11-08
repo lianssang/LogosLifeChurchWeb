@@ -30,8 +30,7 @@
         <div class="carousel-item active">
           <img class="w-100" src="./img/JPEG/IMG1.jpg" alt="" />
           <div class="carousel-caption">
-            <button class="btn btn-primary btn-lg" type="button">
-              View Us Live
+              <a class="btn btn-primary btn-lg" href="./live.php" role="button">Watch Us Live</a>
           </div>
         </div>
         <div class="carousel-item">
@@ -65,8 +64,7 @@
     <div class="container-fluid padding">
       <div class="row welcome text-center">
         <div class="col-12">
-          <h2>Reach Us
-          </h2>
+          <h2>Reach Us</h2>
         </div>
         <hr>
         <div class="col-12">
@@ -120,10 +118,16 @@
       </div>
       </div>
     </div>
-
-    <?php include($IPATH."contactbar.html") ?>
-
+    
+    <!--Contact Container & Footer Bar-->
     <?php include($IPATH."footerbar.html") ?>
 
   </body>
 </html>
+
+<!--
+Extra small devices (<768px): width: auto (or no width)
+Small Devices (≥768px): width: 750px
+Medium Devices (≥992px): width: 970px
+Larger Devices (≥1200px): width: 1170px
+-->
