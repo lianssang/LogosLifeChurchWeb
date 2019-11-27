@@ -11,13 +11,74 @@
       type="image/x-icon"
       sizes="16x16"
     />
-    <link rel="stylesheet" href="./dist/css/main.css" />
-    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/dist/php/"; include($IPATH."cdn.html") ?>
+    <link rel="stylesheet" href="./src/css/main.css" />
+    <?php $IPATH = $_SERVER["DOCUMENT_ROOT"]."/src/html/"; include($IPATH."cdn.html") ?>
   </head>
 
   <body>
     <!--Navigation Bar-->
-    <?php include($IPATH."navbar.html") ?>
+    <nav class="navbar navbar-expand-md navbar-light bg-light stick-top">
+  <div class="container-fluid">
+    <a href="../../" class="navbar-brand"
+      ><img class="logo" src="./img/logoslife.png" alt=""
+    /></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarToggleExternalContent"
+      aria-controls="navbarToggleExternalContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="/jesus/" class="nav-link">Jesus</a>
+        </li>
+        <li class="nav-item">
+          <a href="/about/" class="nav-link">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="/service/" class="nav-link">Service</a>
+        </li>
+        <li class="nav-item">
+          <a href="/ministries/" class="nav-link">Ministries</a>
+        </li>
+        <li class="nav-item">
+          <a href="/contact/" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="collapse" id="navbarToggleExternalContent">
+  <div class="bg-light p-4">
+    <h5 class="text-dark h4 text-center">Welcome to Logos Life</h5>
+    <nav class="text-center">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="/jesus/" class="nav-link">Jesus</a>
+        </li>
+        <li class="nav-item">
+          <a href="/about/" class="nav-link">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="/service/" class="nav-link">Service</a>
+        </li>
+        <li class="nav-item">
+          <a href="/ministries/" class="nav-link">Ministries</a>
+        </li>
+        <li class="nav-item">
+          <a href="/contact/" class="nav-link">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
 
     <!--Image Slider-->
     <div class="carousel slide" id="slides" data-ride="carousel">
@@ -30,7 +91,7 @@
         <div class="carousel-item active">
           <img class="w-100" src="./img/JPEG/IMG1.jpg" alt="" />
           <div class="carousel-caption">
-              <a class="btn btn-primary btn-lg" href="./live.php" role="button">Watch Us Live</a>
+              <a class="btn btn-primary btn-lg" href="./live.php" role="button">Watch LIVE</a>
           </div>
         </div>
         <div class="carousel-item">
@@ -111,7 +172,7 @@
           <p>Saturday Night Service: 7:00 PM to 9:00 PM</p>
           <p>Sunday Service: 5:00 PM to 7:30 PM</p>
         <br>
-        <a href="#" class="btn btn-primary">Upcoming Events</a> <br> <br>
+        <a href="service.php" class="btn btn-primary">Upcoming Events</a> <br> <br>
         </div>
       <div class="col-lg-6">
           <iframe width="400" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3224.549664019194!2d-86.71740118454106!3d36.080086815600986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88646fa4679ec8fd%3A0xdc1c4f8e22867859!2sMill%20Creek%20Baptist%20Church!5e0!3m2!1sen!2sus!4v1572855023076!5m2!1sen!2sus"></iframe>
